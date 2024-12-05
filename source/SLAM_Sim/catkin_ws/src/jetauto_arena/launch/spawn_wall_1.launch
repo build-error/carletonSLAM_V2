@@ -1,0 +1,10 @@
+<launch>
+  <!-- Launch Gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!-- Load your model path to GAZEBO_MODEL_PATH -->
+    <arg name="extra_gazebo_args" value="--verbose -s libgazebo_ros_factory.so" />
+  </include>
+
+  <!-- Spawn the model -->
+  <node name="spawn_wall_1" pkg="gazebo_ros" type="spawn_model" output="screen" args="-file $(find jetauto_arena)/models/wall_1/model.sdf -sdf -model wall_1 -x 0.0 -y 0.0 -z 0.0 -R 1.57 -P 0.0 -Y 0.0"/>
+</launch>

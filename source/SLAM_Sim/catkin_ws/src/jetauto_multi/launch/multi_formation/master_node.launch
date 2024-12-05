@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+    <!--row:横 column:纵-->
+    <arg name="multi_mode"  default="row" doc="opt: row, column, triangle"/>
+    <arg name="map"         default="test0.025"/>
+    <arg name="robot2_name" default="jetauto_2"/>
+    <arg name="robot3_name" default="jetauto_3"/>
+
+    <include file="$(find jetauto_multi)/launch/load_map.launch">
+        <arg name="map" value="$(arg map)"/>
+    </include>
+
+    <include file="$(find jetauto_slam)/launch/include/jetauto_robot.launch">
+        <arg name="use_joy" value="false"/>
+    </include>
+
+    <include file="$(find jetauto_multi)/launch/multi_formation/include/formation_navigation.launch">
+        <arg name="multi_mode"  value="$(arg multi_mode)"/>
+    </include>
+
+    <include file="$(find jetauto_multi)/launch/multi_formation/include/multi_formation.launch">
+        <arg name="multi_mode"  value="$(arg multi_mode)"/>
+        <arg name="robot2_name" value="$(arg robot2_name)"/>
+        <arg name="robot3_name" value="$(arg robot3_name)"/>
+    </include>
+
+    <include file="$(find jetauto_multi)/launch/joy_control.launch"/>
+</launch>

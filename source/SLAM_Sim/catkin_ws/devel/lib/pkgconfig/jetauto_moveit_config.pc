@@ -1,0 +1,8 @@
+prefix=/home/ros/source/SLAM_Sim/catkin_ws/devel
+
+Name: jetauto_moveit_config
+Description: Description of jetauto_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

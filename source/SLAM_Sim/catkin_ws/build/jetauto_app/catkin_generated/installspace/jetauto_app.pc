@@ -1,0 +1,8 @@
+prefix=/home/ros/source/SLAM_Sim/catkin_ws/install
+
+Name: jetauto_app
+Description: Description of jetauto_app
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs jetauto_controller jetauto_sdk rospy sensor_msgs std_msgs std_srvs

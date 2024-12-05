@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>jetauto_tools</name>
+  <version>0.0.1</version>
+  <description>A package for recording TF data between odom and base_footprint.</description>
+
+  <maintainer email="aryan7109singh@gmail.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <!-- If you're using tf2 instead of tf -->
+  <!-- <build_depend>tf2_ros</build_depend> -->
+  <!-- <exec_depend>tf2_ros</exec_depend> -->
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="odom_frame"  default="odom"/>
+    <arg name="base_frame"  default="base_footprint"/>
+    <arg name="depth_camera_name"   default="camera"/>
+    
+    <param name="robot_description" command="$(find xacro)/xacro '$(find jetauto_description)/urdf/jetauto.urdf.xacro' odom_frame:=$(arg odom_frame) base_frame:=$(arg base_frame) depth_camera_name:=$(arg depth_camera_name) lidar_view:=false" />
+    <param name="use_sim_time" value="true"/>
+
+    <!-- <include file="$(find jetauto_arena)/launch/spawn_arena3.launch" /> -->
+
+    <!-- <include file="$(find jetauto_arena)/launch/spawn_arena_2.launch" /> -->
+    
+    <include file="$(find jetauto_gazebo)/launch/room_worlds.launch" />
+
+    <!-- <include file="$(find plywood_mazes)/launch/maze_3_6x6.launch" /> -->
+    
+    <!-- <include file="$(find slam_worlds)/launch/agriculture.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/office_small.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/small_city.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/office_earthquake.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/inspection.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/test_city.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/cyberzoo2019_orange_poles_panels.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/cyberzoo2019_orange_poles.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/outdoor.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/workshop_example.launch" /> -->
+    <!-- <include file="$(find slam_worlds)/launch/office_cpr.launch" /> -->
+
+    <node name="set_gazebo_params" pkg="gazebo_ros" type="spawn_model" output="screen">
+      <param name="/gazebo/physics/real_time_update_rate" value="1000.0"/>
+      <param name="/gazebo/physics/max_step_size" value="0.001"/>
+    </node>
+
+    <node
+      name="spawn_model"
+      pkg="gazebo_ros"
+      type="spawn_model"
+      args="-urdf -param robot_description -model jetauto"
+      output="screen" />
+    <node
+      name="fake_joint_calibration"
+      pkg="rostopic"
+      type="rostopic"
+      args="pub /calibrated std_msgs/Bool true" />
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/astra_usb_reset.dir/src/usb_reset.c.o  -o /home/ros/source/SLAM_Sim/catkin_ws/devel/lib/astra_camera/astra_usb_reset   -L/home/ros/source/SLAM_Sim/catkin_ws/src/third_party/ros_astra_camera/include/openni2_redist/x64 

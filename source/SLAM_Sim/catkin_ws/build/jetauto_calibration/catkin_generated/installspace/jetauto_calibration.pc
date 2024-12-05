@@ -1,0 +1,8 @@
+prefix=/home/ros/source/SLAM_Sim/catkin_ws/install
+
+Name: jetauto_calibration
+Description: Description of jetauto_calibration
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

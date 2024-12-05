@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="robot_name"    default="$(env HOST)" />
+    <arg name="cmd_vel_topic" default="/$(arg robot_name)/jetauto_controller/cmd_vel"/>
+
+    <!--底盘驱动-->
+    <node name="$(arg robot_name)_controller" pkg="jetauto_controller" type="jetauto_controller_main.py" required="true" output="screen" >
+        <remap from="$(arg cmd_vel_topic)" to="/jetauto_controller/cmd_vel"/>
+    </node>
+</launch>

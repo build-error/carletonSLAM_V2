@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<launch>
+    <!--
+    triangle
+       1
+    3     2
+      row
+    3  1  2
+    column
+       1
+       2
+       3
+         -->
+    <arg name="multi_mode"  default="row" doc="opt: row, column, triangle"/>
+
+    <arg name="master_name" default="$(env MASTER)"/>
+    <arg name="robot2_name" default="jetauto_2"/>
+    <arg name="robot3_name" default="jetauto_3"/>
+
+    <!--横向队形(row formation)-->
+    <group if="$(eval multi_mode == 'row')">
+        <node pkg="tf" type="static_transform_publisher" name="base_to_robot2" args=" 0 -0.7 0 0 0 0 $(arg master_name)/base_footprint $(arg multi_mode)2 50" />
+        <node pkg="tf" type="static_transform_publisher" name="base_to_robot3" args=" 0 0.7 0 0 0 0 $(arg master_name)/base_footprint $(arg multi_mode)3 50" />
+    </group>
+
+    <!--纵向队形(column formation)-->
+    <group if="$(eval multi_mode == 'column')">
+        <node pkg="tf" type="static_transform_publisher" name="base_to_robot2" args="-0.6 0 0 0 0 0 $(arg master_name)/base_footprint $(arg multi_mode)2 50" />
+        <node pkg="tf" type="static_transform_publisher" name="base_to_robot3" args="-1.2 0 0 0 0 0 $(arg master_name)/base_footprint $(arg multi_mode)3 50" />
+    </group>
+
+    <!--三角队形(triangle formation)-->
+    <group if="$(eval multi_mode == 'triangle')">
+        <node pkg="tf" type="static_transform_publisher" name="base_to_robot2" args="-0.7 -0.4 0 0 0 0 $(arg master_name)/base_footprint $(arg multi_mode)2 50" />
+        <node pkg="tf" type="static_transform_publisher" name="base_to_robot3" args="-0.7 0.4  0 0 0 0 $(arg master_name)/base_footprint $(arg multi_mode)3 50" />
+    </group>
+</launch>

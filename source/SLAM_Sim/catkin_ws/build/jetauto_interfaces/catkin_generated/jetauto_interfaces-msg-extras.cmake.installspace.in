@@ -1,0 +1,2 @@
+set(jetauto_interfaces_MESSAGE_FILES "msg/ROI.msg;msg/Point2D.msg;msg/LineROI.msg;msg/ColorInfo.msg;msg/ColorsInfo.msg;msg/ColorDetect.msg;msg/ObjectInfo.msg;msg/ObjectsInfo.msg")
+set(jetauto_interfaces_SERVICE_FILES "srv/SetFloat64.srv;srv/SetFloat64List.srv;srv/SetInt64.srv;srv/SetPoint.srv;srv/SetPose.srv;srv/GetPose.srv;srv/SetJointValue.srv;srv/SetString.srv;srv/SetStringList.srv;srv/SetColorRGBA.srv;srv/SetColorDetectParam.srv;srv/SetCircleROI.srv;srv/SetLineROI.srv")

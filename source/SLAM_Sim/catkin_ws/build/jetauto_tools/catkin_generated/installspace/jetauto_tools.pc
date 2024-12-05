@@ -1,0 +1,8 @@
+prefix=/home/ros/source/SLAM_Sim/catkin_ws/install
+
+Name: jetauto_tools
+Description: Description of jetauto_tools
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

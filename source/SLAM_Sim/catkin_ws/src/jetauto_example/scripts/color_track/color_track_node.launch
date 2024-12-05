@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find hiwonder_servo_controllers)/launch/start.launch"/>
+    <include file="$(find jetauto_example)/scripts/color_detect/color_detect_node.launch">
+        <arg name="use_depth_cam"   value="false"/>
+    </include>
+    <node pkg="jetauto_example" type="color_track_node.py" name="color_track_node" output="screen"/>
+</launch>

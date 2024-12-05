@@ -1,0 +1,7 @@
+set(jetauto_app_SETUP_PY_SETUP_MODULE "distutils.core")
+set(jetauto_app_SETUP_PY_VERSION "0.0.0")
+set(jetauto_app_SETUP_PY_SCRIPTS "")
+set(jetauto_app_SETUP_PY_PACKAGES "jetauto_app")
+set(jetauto_app_SETUP_PY_PACKAGE_DIRS "src/jetauto_app")
+set(jetauto_app_SETUP_PY_MODULES "")
+set(jetauto_app_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find jetauto_slam)/launch/include/jetauto_robot.launch"/>
+    <include file="$(find jetauto_multi)/launch/multi_surround/include/surround_navigation.launch"/>
+</launch>

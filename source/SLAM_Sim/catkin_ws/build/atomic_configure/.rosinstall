@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/source/SLAM_Sim/catkin_ws/devel/setup.sh

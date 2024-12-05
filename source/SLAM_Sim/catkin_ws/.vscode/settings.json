@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/build-error-ubuntu-1804/carletonSLAM/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/build-error-ubuntu-1804/.local/lib/python2.7/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/build-error-ubuntu-1804/carletonSLAM/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/build-error-ubuntu-1804/.local/lib/python2.7/site-packages"
+    ]
+}

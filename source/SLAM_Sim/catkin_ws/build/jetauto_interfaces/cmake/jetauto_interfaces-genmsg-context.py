@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/ROI.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/Point2D.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/LineROI.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/ColorInfo.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/ColorsInfo.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/ColorDetect.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/ObjectInfo.msg;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg/ObjectsInfo.msg"
+services_str = "/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetFloat64.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetFloat64List.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetInt64.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetPoint.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetPose.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/GetPose.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetJointValue.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetString.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetStringList.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetColorRGBA.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetColorDetectParam.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetCircleROI.srv;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/srv/SetLineROI.srv"
+pkg_name = "jetauto_interfaces"
+dependencies_str = "std_msgs;geometry_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "jetauto_interfaces;/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_interfaces/msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg;geometry_msgs;/opt/ros/noetic/share/geometry_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

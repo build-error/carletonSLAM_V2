@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="map"         default="test0.025"/>
+    <arg name="radius"      default="0.5"/>
+
+    <include file="$(find jetauto_multi)/launch/load_map.launch">
+        <arg name="map" value="$(arg map)"/>
+    </include>
+
+    <include file="$(find jetauto_slam)/launch/include/jetauto_robot.launch">
+        <arg name="use_joy" value="false"/>
+    </include>
+
+    <include file="$(find jetauto_multi)/launch/multi_surround/include/surround_navigation.launch">
+        <arg name="radius"  value="$(arg radius)"/>
+    </include>
+
+    <include file="$(find jetauto_multi)/launch/multi_surround/include/multi_surround.launch">
+        <arg name="radius" value="$(arg radius)"/>
+    </include>
+
+    <include file="$(find jetauto_multi)/launch/joy_control.launch"/>
+</launch>

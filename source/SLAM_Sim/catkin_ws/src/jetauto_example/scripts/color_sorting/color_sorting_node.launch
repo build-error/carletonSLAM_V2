@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="start"   default="true"/>
+    <include file="$(find jetauto_example)/scripts/color_detect/color_detect_node.launch">
+        <arg name="use_depth_cam"   value="false"/>
+    </include>
+    <node pkg="jetauto_example" type="color_sorting_node.py" name="color_sorting_node" output="screen">
+        <param name="start" value="$(arg start)"/>
+    </node>
+</launch>

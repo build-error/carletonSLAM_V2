@@ -1,0 +1,10 @@
+<launch>
+  <arg name="robot_name"  default="$(env HOST)" />
+  <arg name="lidar_view"  default="false"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+
+  <!-- Spawn the model -->
+  <node name="spawn_test_arena_1" pkg="gazebo_ros" type="spawn_model" output="screen" args="-file $(find jetauto_arena)/models/test_arena_1/model.sdf -sdf -model test_arena_1 -x 0.0 -y 0.0 -z 0.0 -R 1.57 -P 0.0 -Y 0.0"/>
+
+</launch>

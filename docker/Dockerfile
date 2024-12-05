@@ -47,7 +47,8 @@ RUN apt-get update && \
     wget \
     curl \
     vim \
-    unzip && \
+    unzip \
+    ros-noetic-sophus && \
     rm -rf /var/lib/apt/lists/*
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
