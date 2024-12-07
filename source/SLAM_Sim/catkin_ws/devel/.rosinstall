@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ros/source/SLAM_Sim/catkin_ws/devel/setup.sh
+    local-name: /home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/devel/setup.sh

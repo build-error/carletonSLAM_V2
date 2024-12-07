@@ -1,4 +1,4 @@
-prefix=/home/ros/source/SLAM_Sim/catkin_ws/install
+prefix=/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/install
 
 Name: hiwonder_servo_msgs
 Description: Description of hiwonder_servo_msgs

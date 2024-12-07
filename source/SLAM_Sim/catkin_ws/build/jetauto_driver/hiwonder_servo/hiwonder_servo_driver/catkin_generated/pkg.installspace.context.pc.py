@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "diagnostic_msgs;rospy;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "hiwonder_servo_driver"
-PROJECT_SPACE_DIR = "/home/ros/source/SLAM_Sim/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/install"
 PROJECT_VERSION = "0.0.0"

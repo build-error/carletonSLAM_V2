@@ -1,8 +1,8 @@
-prefix=/home/ros/source/SLAM_Sim/catkin_ws/devel
+prefix=/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/devel
 
 Name: jetauto_calibration
 Description: Description of jetauto_calibration
 Version: 0.0.0
-Cflags: -I/home/ros/source/SLAM_Sim/catkin_ws/devel/include
+Cflags: -I/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: 

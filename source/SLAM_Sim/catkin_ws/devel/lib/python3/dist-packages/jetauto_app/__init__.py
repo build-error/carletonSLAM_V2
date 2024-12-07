@@ -6,7 +6,7 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
-__extended_path = '/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_app/src'.split(';')
+__extended_path = '/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/src/jetauto_app/src'.split(';')
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_peripherals
+# Install script for directory: /home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/src/jetauto_peripherals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/source/SLAM_Sim/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/source/SLAM_Sim/catkin_ws/build/jetauto_peripherals/catkin_generated/installspace/jetauto_peripherals.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/build/jetauto_peripherals/catkin_generated/installspace/jetauto_peripherals.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jetauto_peripherals/cmake" TYPE FILE FILES
-    "/home/ros/source/SLAM_Sim/catkin_ws/build/jetauto_peripherals/catkin_generated/installspace/jetauto_peripheralsConfig.cmake"
-    "/home/ros/source/SLAM_Sim/catkin_ws/build/jetauto_peripherals/catkin_generated/installspace/jetauto_peripheralsConfig-version.cmake"
+    "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/build/jetauto_peripherals/catkin_generated/installspace/jetauto_peripheralsConfig.cmake"
+    "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/build/jetauto_peripherals/catkin_generated/installspace/jetauto_peripheralsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jetauto_peripherals" TYPE FILE FILES "/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_peripherals/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jetauto_peripherals" TYPE FILE FILES "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/src/jetauto_peripherals/package.xml")
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/ros/source/SLAM_Sim/catkin_ws/devel
+prefix=/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/devel
 
 Name: jetauto_slam
 Description: Description of jetauto_slam

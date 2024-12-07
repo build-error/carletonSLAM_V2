@@ -1,0 +1,2 @@
+.
+-DCATKIN_DEVEL_PREFIX=/home/build-error-ubuntu/carletonSLAM_V2/source/plywood_mazes/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/build-error-ubuntu/carletonSLAM_V2/source/plywood_mazes/catkin_ws/install -G Unix Makefiles

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_driver/jetauto_arm_kinematics
+# Install script for directory: /home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/src/jetauto_driver/jetauto_arm_kinematics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/source/SLAM_Sim/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/source/SLAM_Sim/catkin_ws/build/jetauto_driver/jetauto_arm_kinematics/catkin_generated/installspace/jetauto_arm_kinematics.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/build/jetauto_driver/jetauto_arm_kinematics/catkin_generated/installspace/jetauto_arm_kinematics.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jetauto_arm_kinematics/cmake" TYPE FILE FILES
-    "/home/ros/source/SLAM_Sim/catkin_ws/build/jetauto_driver/jetauto_arm_kinematics/catkin_generated/installspace/jetauto_arm_kinematicsConfig.cmake"
-    "/home/ros/source/SLAM_Sim/catkin_ws/build/jetauto_driver/jetauto_arm_kinematics/catkin_generated/installspace/jetauto_arm_kinematicsConfig-version.cmake"
+    "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/build/jetauto_driver/jetauto_arm_kinematics/catkin_generated/installspace/jetauto_arm_kinematicsConfig.cmake"
+    "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/build/jetauto_driver/jetauto_arm_kinematics/catkin_generated/installspace/jetauto_arm_kinematicsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jetauto_arm_kinematics" TYPE FILE FILES "/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_driver/jetauto_arm_kinematics/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jetauto_arm_kinematics" TYPE FILE FILES "/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/src/jetauto_driver/jetauto_arm_kinematics/package.xml")
 endif()
 

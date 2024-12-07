@@ -11,9 +11,9 @@
 
     <!-- <include file="$(find jetauto_arena)/launch/spawn_arena_2.launch" /> -->
     
-    <include file="$(find jetauto_gazebo)/launch/room_worlds.launch" />
+    <!-- <include file="$(find jetauto_gazebo)/launch/room_worlds.launch" /> -->
 
-    <!-- <include file="$(find plywood_mazes)/launch/maze_3_6x6.launch" /> -->
+    <include file="$(find plywood_mazes)/launch/maze_3_6x6.launch" />
     
     <!-- <include file="$(find slam_worlds)/launch/agriculture.launch" /> -->
     <!-- <include file="$(find slam_worlds)/launch/office_small.launch" /> -->

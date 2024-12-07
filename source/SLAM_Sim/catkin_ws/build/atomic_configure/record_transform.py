@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/ros/source/SLAM_Sim/catkin_ws/src/jetauto_tools/src/record_transform.py'
+python_script = '/home/build-error-ubuntu/carletonSLAM_V2/source/SLAM_Sim/catkin_ws/src/jetauto_tools/src/record_transform.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/build-error-ubuntu/carletonSLAM_V2/source/plywood_mazes/catkin_ws/install/setup.sh
