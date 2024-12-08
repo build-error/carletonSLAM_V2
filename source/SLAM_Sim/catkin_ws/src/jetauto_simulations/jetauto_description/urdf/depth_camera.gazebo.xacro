@@ -32,14 +32,14 @@
             <frameName>$(arg depth_camera_name)_frame</frameName>
             <pointCloudCutoff>0.6</pointCloudCutoff>
             <pointCloudCutoffMax>8.0</pointCloudCutoffMax>
-            <distortionK1>0.262383</distortionK1> 
-            <distortionK2>-0.953104</distortionK2>
-            <distortionK3>1.163314</distortionK3>
-            <distortionT1>-0.005358</distortionT1>
-            <distortionT2>0.002628</distortionT2>
+            <distortionK1>0.0</distortionK1> 
+            <distortionK2>0.0</distortionK2>
+            <distortionK3>0.0</distortionK3>
+            <distortionT1>0.0</distortionT1>
+            <distortionT2>0.0</distortionT2>
             <CxPrime>0</CxPrime>
-            <Cx>318.643040</Cx>
-            <Cy>255.313989</Cy>
+            <Cx>324.637</Cx>
+            <Cy>242.462</Cy>
             <focalLength>0</focalLength>
             <hackBaseline>0</hackBaseline>
           </plugin>

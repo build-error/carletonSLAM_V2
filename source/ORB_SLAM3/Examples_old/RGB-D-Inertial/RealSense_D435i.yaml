@@ -29,7 +29,7 @@ Camera.fps: 30.0
 Camera.RGB: 1
 
 # Image scale, it changes the image size to be processed (<1.0: reduce, >1.0: increase)
-Camera.imageScale: 0.5 # 0.5 #0.7071 # 1/sqrt(2)
+Camera.imageScale: 0.1 # 0.5 #0.7071 # 1/sqrt(2)
 
 # Close/Far threshold. Baseline times.
 ThDepth: 40.0
@@ -38,7 +38,7 @@ ThDepth: 40.0
 Camera.bf: 46.01
 
 # Deptmap values factor
-DepthMapFactor: 1000.0
+DepthMapFactor: 1.0
 
 # Transformation from body-frame (imu) to left camera
 Tbc: !!opencv-matrix

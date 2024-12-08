@@ -1,1 +1,1 @@
-rosrun ORB_SLAM3 RGBD ORB_SLAM3/Vocabulary/ORBvoc.txt ORB_SLAM3/Examples_old/RGB-D/TUM1.yaml /camera/depth_registered/image_raw:=/camera/depth/image_raw /camera/rgb/image_raw:=/camera/rgb/image_raw
+rosrun ORB_SLAM3 RGBD ORB_SLAM3/Vocabulary/ORBvoc.txt ORB_SLAM3/Examples_old/RGB-D-Inertial/RealSense_D435i.yaml /camera/depth_registered/image_raw:=/camera/depth/image_raw /camera/rgb/image_raw:=/camera/rgb/image_raw 
